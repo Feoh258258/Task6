@@ -93,9 +93,6 @@ mathRes.onclick = function(){
 
 
 
-//Task 3 
-let inputCheck = document.getElementById('task3Text').value;
-inputCheck.oninput = function() {
-  let checkInputText = inputCheck(/d/gm,'').length;
-}
+
+
 });//EndDOMLoaded
